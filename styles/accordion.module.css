@@ -1,0 +1,29 @@
+.item {
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
+  
+  .title {
+    width: 100%;
+    padding: 1rem;
+    font-size: 30px;
+  }
+  .item.active .title,
+  .title:hover {
+    color: red;
+  }
+  
+  .content {
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .content p {
+    margin: 0;
+    padding: 1rem;
+  }
+  
