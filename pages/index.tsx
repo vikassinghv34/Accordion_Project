@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { Inter } from "next/font/google";
+import Accordion from "./accordion";
 import { GetStaticProps } from "next";
 import CommentData from "./components/interface";
 
