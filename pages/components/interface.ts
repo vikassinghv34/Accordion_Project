@@ -12,4 +12,6 @@ interface comment{
   interface userData {
     id: number;
     username: string;
-  }
+}
+  
+// export default commentData;
